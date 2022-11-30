@@ -10,6 +10,8 @@ class MiniHackNewTask(MiniHackNavigation):
         kwargs["max_episode_steps"] = kwargs.pop("max_episode_steps", 1000)
         super().__init__(*args, des_file=des_file, **kwargs)
 
+        
+# to register
 register(
     id="MiniHack-FunTimes-v0",
     entry_point="path.to.file:MiniHackNewTask", 
